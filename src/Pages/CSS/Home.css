@@ -1,0 +1,75 @@
+.mainContent {
+  align-items: center;
+  background-image: url('../CSS/banner-bg-01.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 600px;
+  justify-content: center;
+  width: 100%;
+  z-index: 0;
+}
+
+.info, .socialContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 30%;
+  border-radius: 20px;
+  background-color: rgba(52, 51, 51, 0.648);
+  padding: 0 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.socialContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    clear: both;
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 390px) {
+    .mainContent {
+      padding-top: 80px;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .info, .socialContainer {
+      padding: 20px 40px;
+      width: 70%;
+    }
+
+    .info p {
+        position: absolute;
+        top: 300px;
+        padding: 0 10px;
+        margin: 0 90px;
+        width: 80%;
+        min-height: 50%;
+        text-align: center;
+    }
+}
+
