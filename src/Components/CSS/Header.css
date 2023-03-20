@@ -1,9 +1,9 @@
 header {
     display: flex;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: rgb(0, 0, 0);
     min-height: 90px;
     padding: 0 50px;
     box-shadow: black 2px 2px 10px;
@@ -45,15 +45,22 @@ header {
 }
 
 .navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    color: white;
+    border: 1px solid red;
+    padding: 8px;
+    border-radius: 20px;
+    color: rgb(254, 0, 0);
     margin-left: 20px;
     text-align: center;
     font-weight: 700;
 } 
 
 .navbar a:hover {
-    color: red;
+    color: white;
+    background-color: red;
     font-weight: 700;
 }
 
